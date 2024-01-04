@@ -2,3 +2,5 @@ sphinx-tabs==3.0.0; python_version >= "3.6" and python_version < "4.0"
 sphinx-rtd-theme==0.4.3
 sphinx==4.0.1
 docutils==0.16
+sphinx-book-theme
+sphinx-press-theme
