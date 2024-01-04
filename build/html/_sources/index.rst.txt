@@ -13,9 +13,7 @@ Welcome to FRC Team 4253's Training Documentation!
    :caption: Fabrication
 
    Docs/Fab/1-ManualPressBrake
-   Docs/Fab/0.5-SoftwareFab
-   Docs/Fab/1-Conventions
-   Docs/Fab/2-Configuration
+   Docs/Fab/2-ColdSaw
 
 .. image:: Docs/Photos/LogoBW.png
     :scale: 10%

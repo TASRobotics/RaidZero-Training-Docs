@@ -2,9 +2,9 @@
 Manual Press Brake
 ##################
 
-.. warning::
+.. attention::
 
-    As always, **WEAR SAFETY GOGGLES** when using the machine. 
+    **WEAR SAFETY GOGGLES** when using the machine. 
 
 .. note::
 
@@ -33,7 +33,7 @@ Instructions
 
 6. Insert the bar into the black hole between the pressure gauge and spring
 
-.. warning:: 
+.. caution:: 
 
     Make sure that no one is touching the area where the press will come down!
 
@@ -41,7 +41,7 @@ Instructions
 
     a. Once the blade makes contact with the part, the blade may turn
 
-.. warning::
+.. caution::
 
     Make sure to re-align the part and rectangular block if needed
 
@@ -53,9 +53,9 @@ Instructions
 
 10. Slowly release the pressure by rotating the black knob above the gauge COUNTERCLOCKWISE
 
-.. warning::
+.. caution::
 
-    Caution: Make sure that no one is near the blade as it will pop up
+    Make sure that no one is near the blade as it will pop up
 
 11. Remove the part from the bending press
 
