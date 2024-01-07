@@ -2,6 +2,8 @@
 Manual Press Brake
 ##################
 
+Last updated January 4, 2024
+
 .. attention::
 
     **WEAR SAFETY GOGGLES** when using the machine. 

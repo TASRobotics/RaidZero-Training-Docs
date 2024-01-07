@@ -2,6 +2,8 @@
 Cold Saw
 ########
 
+Last updated January 4, 2024
+
 .. attention::
 
     **WEAR SAFETY GOGGLES** ***AND*** **EAR PROTECTION** when using the machine. 

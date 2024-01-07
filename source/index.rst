@@ -14,6 +14,7 @@ Welcome to FRC Team 4253's Training Documentation!
 
    Docs/Fab/1-ManualPressBrake
    Docs/Fab/2-ColdSaw
+   Docs/Fab/3-DrillPress
 
 .. image:: Docs/Photos/LogoBW.png
     :scale: 10%
