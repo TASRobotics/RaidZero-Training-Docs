@@ -9,7 +9,7 @@ Welcome to Raid Zero's Training Documentation! Check out the documentation websi
 
 ## Building the Docs
 
-1. Install everything in [``requirements.txt``](requirements.txt) by running ``pip install -r requirements. txt``.
+1. Install everything in [``requirements.txt``](requirements.txt) by running ``pip install -r requirements.txt``.
 2. Run ``make html`` at the root of the project to generate HTML files. 
 3. Open ``index.html`` in build/html to view the website. 
 
