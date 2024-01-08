@@ -1,6 +1,6 @@
 
 ![GitHub](https://img.shields.io/github/license/TASRobotics/RaidZero-Training-Docs?logo=Github)
-https://img.shields.io/website?url=https%3A%2F%2Ftasrobotics.github.io%2FRaidZero-Training-Docs%2Findex.html&up_message=online&up_color=green&down_message=offline&down_color=red&style=flat&logo=readthedocs&label=docs
+![Website](https://img.shields.io/website?url=https%3A%2F%2Ftasrobotics.github.io%2FRaidZero-Training-Docs%2Findex.html&up_message=online&up_color=green&down_message=offline&down_color=red&style=flat&logo=readthedocs&label=docs)
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg)](#contributors-)
 
 # Raid Zero Outreach Swerve Docs
