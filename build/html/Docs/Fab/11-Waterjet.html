@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Waterjet &#8212; 4253 Training Documentation 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../../_static/alabaster.css?v=12dfc556" />
+    <link rel="stylesheet" type="text/css" href="../../_static/tabs.css?v=45efc450" />
+    <script src="../../_static/documentation_options.js?v=8d563738"></script>
+    <script src="../../_static/doctools.js?v=888ff710"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="prev" title="Rotating Sander" href="10-RotaterSander.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="waterjet">
+<h1>Waterjet<a class="headerlink" href="#waterjet" title="Link to this heading">¶</a></h1>
+<p>Last updated January 9, 2024</p>
+<section id="instructions">
+<h2>Instructions<a class="headerlink" href="#instructions" title="Link to this heading">¶</a></h2>
+<ol class="arabic">
+<li><p>Check if the waterjet primary pump is on (located right next to the powdercoating room; wood block has either ON / OFF pointing towards you</p>
+<blockquote>
+<div><ol class="loweralpha">
+<li><p>If it’s turned ON, check the secondary pump (located next to the primary pump and make sure that secondary pump pressure is greater than 180 rpm</p>
+<blockquote>
+<div><ol class="lowerroman simple">
+<li><p>If secondary pump is on AND pressure gauge is greater than or equal to 40 rpm, you are all set!</p></li>
+<li><p>If secondary pump is off, make sure that you turn it on after the pressure gauge is greater than or equal to 40</p></li>
+</ol>
+</div></blockquote>
+</li>
+</ol>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>Caution: If you turn the secondary pump on when pressure gauge is less  than 40 rpm, it’s going to break. PLEASE make sure that the gauge is over 40 rpm</p>
+</div>
+<ol class="loweralpha" start="2">
+<li><p>If it’s turned OFF, turn it ON and wait for the gauge in thesecondary pump to be greater than or equal to 40</p></li>
+<li><p>rpm</p>
+<blockquote>
+<div><ol class="lowerroman simple">
+<li><p>Once it reaches 40 rpm, turn on the secondary pump and the pressure gauge should rise to about 180 rpm</p></li>
+</ol>
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+</li>
+<li><p>If both pumps are ready, go to the computer, and open the .dxf file that you want to cut</p>
+<blockquote>
+<div><div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>Caution: click on the RED file as there might be blue files that won’t work on the waterjet</p>
+</div>
+</div></blockquote>
+</li>
+<li><p>You’ll see a review screen, just click OK</p></li>
+<li><p>You will be led to a OMAX LAYOUT WINDOW. Depending on how many of the parts that you wish to cut, adjust by functions on the left side of the screen, such as rotate, copy, move, etc</p>
+<blockquote>
+<div><div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>Caution: make sure that if you have multiple parts, they don’t overlap and you minimize the space in between them to save the material</p>
+</div>
+</div></blockquote>
+</li>
+<li><p>On the right side of the screen, click Clean and click OK</p>
+<blockquote>
+<div><ol class="loweralpha simple">
+<li><p>This allows the part to be ready for waterjet</p></li>
+</ol>
+</div></blockquote>
+</li>
+<li><p>On your keyboard, click S, A, Q, 3, S, and enter to set the quality of your piece to 3</p>
+<blockquote>
+<div><div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Pro Tip: 5 has the best quality, but you go with 3 because better the quality, the longer it takes. Most of the parts would be quality 3</p>
+</div>
+</div></blockquote>
+</li>
+<li><p>On the left side of the screen, select Autopath</p>
+<blockquote>
+<div><ol class="loweralpha simple">
+<li><p>You will notice that the green lines connect some parts of the purple outline. This generates the path of the nozzle automatically</p></li>
+</ol>
+</div></blockquote>
+</li>
+<li><p>On the right side of the screen, select Post and click OK</p>
+<blockquote>
+<div><ol class="loweralpha">
+<li><p>In the Post window, you can check whether the cut you want to make is proper.</p></li>
+<li><p>When you are led to a new window, click path start</p>
+<blockquote>
+<div><ol class="lowerroman simple">
+<li><p>Click somewhere around the beginning of the path, or the cross is located</p></li>
+</ol>
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+</li>
+<li><p>Go to OMAX MAKE - Alt + Tab to find this window</p></li>
+<li><p>Click Change Path Setup</p></li>
+<li><p>Browse the file that you just made in OMAX LAYOUT and check the drawing</p></li>
+<li><p>Change the material</p>
+<ol class="loweralpha simple">
+<li><p>Alumium: Aluminum 6061</p></li>
+<li><p>Field Wood Parts: Red Oak / Hardwood</p></li>
+<li><p>Steel: Steel</p></li>
+<li><p>Polycarb: Polycarbonate</p></li>
+</ol>
+</li>
+<li><p>Input the thickness: enter in inches (use caliper to convert)</p>
+<ol class="arabic simple">
+<li><p>Caution: DO NOT input the exact thickness, you need some TOLERANCE!! This means that you need to add an extra thickness so that the waterjet cuts through the material and it doesn’t just skim the surface</p></li>
+<li><p>e.g. if you are cutting 1/16 aluminum, 1/16 in = 1.5875 mm so Input 2 mm!</p></li>
+</ol>
+</li>
+<li><p>Place the material from the rack - use a caliper to check the thickness</p>
+<ol class="loweralpha simple">
+<li><p>Thickness should be a little bigger than the written thickness</p></li>
+</ol>
+</li>
+<li><p>Put the sheet on the corner, and place some weights on the parts that you are not cutting so that the parts don’t fly out during the cut</p>
+<ol class="loweralpha simple">
+<li><p>If the nozzle is on your way, adjust the location of the nozzle</p></li>
+</ol>
+</li>
+</ol>
+<p>Nozzle Movement Keys:</p>
+<blockquote>
+<div><ul>
+<li><p>X and Y direction (horizontal and vertical movement along a plane)</p>
+<blockquote>
+<div><p>Use arrow keys (arrow key + SHIFT speeds things up)</p>
+</div></blockquote>
+</li>
+<li><p>Z direction (up and down height)</p>
+<blockquote>
+<div><p>Use keys 1 and 7 on the number pad</p>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+<ol class="arabic" start="16">
+<li><p>Go to the location where your path start is located by moving the nozzle</p></li>
+<li><p>On top right of the screen, you will see two sets of coordinates. Press zero to the second set of coordinates, which will zero the path start. Click OK</p></li>
+<li><p>Adjust the z height so that the nozzle is about a finger thickness away from the plate</p>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>Extra cation: don’t move the nozzle when your finger is under the nozzle, you are going to lose your finger. Make sure that no one else but you are controlling the nozzle and after small moves fit your finger under the nozzle to check if it has a tight fit</p>
+<p>DO NOT MOVE WHEN YOUR FINGER IS IN BETWEEN THE PLATE AND THE NOZZLE!!! PLEASE!!!</p>
+</div>
+</li>
+<li><p>Right click (not left) on the Begin Machining</p></li>
+<li><p>Click Spot on Path and pick the farthest edge by moving your cursor</p>
+<ol class="loweralpha simple">
+<li><p>This will move the nozzle to the location you want to go. Doesn’t have to be the farthest edge, but go to spot where you think there is not enough space. Make sure that your nozzle does not run over an empty part, it has to have a solid part where u can cut</p></li>
+</ol>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>Caution: DO NOT have any weights on the way of the nozzle, it’s going to stop if it runs into the steel block while moving</p>
+</div>
+</li>
+<li><p>When system says, “machine will now transverse into the location”, click OK and check that the nozzle moves to the correct location</p></li>
+<li><p>On the top right of the screen where you zeroed a few steps ago, click go home</p>
+<ol class="loweralpha simple">
+<li><p>Make sure you don’t click go home on the first set of coords, you only need to use the go home for the second set of coordinates</p></li>
+<li><p>Machine will now transverse to home that you set</p></li>
+</ol>
+</li>
+<li><p>Now, you are ready to go!!! Before you do anything though, check:</p>
+<ol class="loweralpha simple">
+<li><p>You are wearing safety goggles and ear protection</p></li>
+<li><p>No one is near the machine and they are aware that you are running the waterjet</p></li>
+<li><p>Double check your pumps are on and the umbrella-looking rubber piece is attached to the nozzle. This prevents water from splashing everywhere</p></li>
+</ol>
+</li>
+<li><p>GOOO!! Click Begin Machining and click Start</p></li>
+<li><p>You can stop anytime using the stop button and if you are cutting multiple parts, it’s sometimes good to stop the machine and pick up the part that is already cut, and resuming the cut</p>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>Caution: ALWAYS! ALWAYS there should be a person or two standing by the machine to check that everything is fine.</p>
+</div>
+</li>
+<li><p>If you run into a problem, don’t hesitate to ask any of the heads or teachers or any adults standing around. It’s fine if something goes wrong, but please notify people ASAP</p></li>
+<li><p>After the waterjet (when the progress bar reaches 100%) take out the parts that is cut and wash it off using the water gun and dry it using the air gun</p>
+<ol class="loweralpha simple">
+<li><p>Remove the plate for next user, or you can just leave it too</p></li>
+</ol>
+</li>
+<li><p>AGAIN, ASK IF YOU HAVE ANY QUESTIONS!!!!</p></li>
+</ol>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h3><a href="../../index.html">Table of Contents</a></h3>
+<p class="caption" role="heading"><span class="caption-text">Fabrication</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="1-ManualPressBrake.html">Manual Press Brake</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2-ColdSaw.html">Cold Saw</a></li>
+<li class="toctree-l1"><a class="reference internal" href="3-DrillPress.html">Drill Press</a></li>
+<li class="toctree-l1"><a class="reference internal" href="4-HorizontalBandsaw.html">Horizontal Bandsaw</a></li>
+<li class="toctree-l1"><a class="reference internal" href="5-Flexarm.html">Flex Arm</a></li>
+<li class="toctree-l1"><a class="reference internal" href="6-Mill.html">Mill</a></li>
+<li class="toctree-l1"><a class="reference internal" href="7-Omio.html">Omio</a></li>
+<li class="toctree-l1"><a class="reference internal" href="8-Sandblast.html">Sandblast</a></li>
+<li class="toctree-l1"><a class="reference internal" href="9-OrbitalSander.html">Orbital Sander</a></li>
+<li class="toctree-l1"><a class="reference internal" href="10-RotaterSander.html">Rotating Sander</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Waterjet</a></li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="10-RotaterSander.html" title="previous chapter">Rotating Sander</a></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/Docs/Fab/11-Waterjet.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2023, FRC 4253 Raid Zero.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.2.6</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.15</a>
+      
+      |
+      <a href="../../_sources/Docs/Fab/11-Waterjet.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

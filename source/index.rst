@@ -15,6 +15,16 @@ Welcome to FRC Team 4253's Training Documentation!
    Docs/Fab/1-ManualPressBrake
    Docs/Fab/2-ColdSaw
    Docs/Fab/3-DrillPress
+   Docs/Fab/4-HorizontalBandsaw
+   Docs/Fab/5-Flexarm
+   Docs/Fab/6-Mill
+   Docs/Fab/7-Omio
+   Docs/Fab/8-Sandblast
+   Docs/Fab/9-OrbitalSander
+   Docs/Fab/10-RotaterSander
+   Docs/Fab/11-Waterjet
+   Docs/Fab/12-VerticalBandsaw
+   Docs/Fab/13-Powdercoating
 
 .. image:: Docs/Photos/LogoBW.png
     :scale: 10%
