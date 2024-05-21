@@ -26,6 +26,19 @@ Welcome to FRC Team 4253's Training Documentation!
    Docs/Fab/12-VerticalBandsaw
    Docs/Fab/13-Powdercoating
 
+.. toctree::
+   :titlesonly:
+   :caption: Software
+
+   Docs/Software/1-ObjectDetection
+
+.. toctree::
+   :titlesonly:
+   :caption: Miscellaneous
+
+   Docs/Miscellaneous/1-WebsiteMaintenance
+
+
 .. image:: Docs/Photos/LogoBW.png
     :scale: 10%
     :align: center
